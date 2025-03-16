@@ -1,0 +1,35 @@
+name: Build and Push Docker Image to GHRC
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
+      - name: Install dependencies
+        run: npm ci
+      - name: Build and push Docker image
+        run: |
+          docker login --username rajdhake --password ${{secrets.ACCESS_TOKEN}} ghcr.io
+          docker build -t ghcr.io/rajdhake/event_venue_management_system:latest --file Dockerfile .  
+          docker push ghcr.io/rajdhake/event_venue_management_system:latest
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build_and_push
+    steps:
+      - name: Deploy to Render
+        run: |
+          curl -X POST "https://api.render.com/deploy/srv-coipubgl5elc73dbru0g?key=${{ secrets.RENDER_DEPLOY_KEY }}"

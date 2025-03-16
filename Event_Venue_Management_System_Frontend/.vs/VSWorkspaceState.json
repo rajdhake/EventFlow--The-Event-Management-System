@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\images",
+    "\\src\\components",
+    "\\src\\layouts",
+    "\\src\\Logic",
+    "\\src\\Logic\\Explore",
+    "\\src\\pages",
+    "\\src\\pages\\dashboard"
+  ],
+  "SelectedNode": "\\src\\pages\\dashboard\\Dashboard.js",
+  "PreviewInSolutionExplorer": false
+}
