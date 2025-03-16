@@ -10,3 +10,15 @@ Overall, the platform creates a streamlined, user-friendly experience for event 
 2. **Event Registration** – Users can register for events, receive notifications, and track participation in their personal calendar.
 3. **User Profiles & Reviews** – Users have personalized dashboards, reservation history, and can review venues post-booking.
 4. **Waiting List & Auto-Update System** – If an event or venue reaches full capacity, users can join a waiting list. If a registered participant cancels, the next person on the list is automatically notified and given the option to confirm their booking.
+
+<img width="659" alt="image" src="https://github.com/user-attachments/assets/91aefffa-c2c9-4bb7-877e-03075a68bd8e" />
+
+
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/ed645c69-05d3-47e0-9fb8-79f4ee4d17ba" />
+
+<img width="739" alt="image" src="https://github.com/user-attachments/assets/316f5d6e-f350-41d0-8c22-aabe285fd65b" />
+
+<img width="687" alt="image" src="https://github.com/user-attachments/assets/4cb3e82f-754b-4e11-90ac-bb2aa7eb956a" />
+
+
+
