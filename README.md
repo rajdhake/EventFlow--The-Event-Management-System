@@ -1,4 +1,4 @@
-# EventFlow--The-Event-Management-System
+# EventFlow -Scalable Microservices-Based Activity Management System
 
 The EventFlow System is an online platform designed to connect venue owners and users, simplifying the process of venue booking and event participation. The system allows venue owners to list their venues with relevant details, while users can search, book, and manage their reservations efficiently. It primarily focuses on sports venues and activities, enabling users to discover local sporting events, find players, and register for activities.
 
